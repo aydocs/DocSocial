@@ -9,7 +9,7 @@
 
 **Created with 💜 by aydocs**
 
-*A beautiful and powerful OSINT tool for Termux, collecting intelligence from multiple sources using phone numbers, usernames, emails, and profile pictures.*
+*A beautiful and powerful OSINT tool for collecting intelligence from multiple sources using phone numbers, usernames, emails, and profile pictures.*
 
 </div>
 
@@ -43,43 +43,11 @@
 
 ---
 
-## 🇹🇷 Türkçe Kurulum ve Kullanım (Termux)
+## 🚀 Installation & Usage
 
-### Kurulum
-```bash
-pkg update && pkg upgrade
-pkg install python git
-pip install --upgrade pip
+### 📱 **Termux (Android)**
 
-# Projeyi indir
-cd ~
-git clone https://github.com/aydocs/docsocial.git
-cd docsocial/social-intel
-
-# Bağımlılıkları yükle
-pip install -r requirements.txt
-
-# veya otomatik başlatıcı ile
-bash run_docsocial.sh
-```
-
-### Kullanım
-```bash
-# Etkileşimli mod (Animasyonlu menü)
-python docsocial.py
-
-# Komut satırı
-python docsocial.py --username aydocs
-python docsocial.py --phone +905551234567
-python docsocial.py --email user@gmail.com
-python docsocial.py --photo profil.jpg
-```
-
----
-
-## 🇬🇧 English Install & Usage (Termux)
-
-### Install
+#### Installation
 ```bash
 pkg update && pkg upgrade
 pkg install python git
@@ -97,7 +65,7 @@ pip install -r requirements.txt
 bash run_docsocial.sh
 ```
 
-### Usage
+#### Usage
 ```bash
 # Interactive mode (Animated menu)
 python docsocial.py
@@ -108,6 +76,131 @@ python docsocial.py --phone +1234567890
 python docsocial.py --email user@example.com
 python docsocial.py --photo profile.jpg
 ```
+
+### 🪟 **Windows**
+
+#### Prerequisites
+- Python 3.8 or higher
+- Git for Windows
+
+#### Installation
+```powershell
+# Install Python from https://python.org if not installed
+# Install Git from https://git-scm.com if not installed
+
+# Clone the repository
+git clone https://github.com/aydocs/docsocial.git
+cd docsocial/social-intel
+
+# Install dependencies
+pip install -r requirements.txt
+
+# or use the Windows batch file
+run_docsocial.bat
+```
+
+#### Usage
+```powershell
+# Interactive mode (Animated menu)
+python docsocial.py
+
+# Command line
+python docsocial.py --username aydocs
+python docsocial.py --phone +1234567890
+python docsocial.py --email user@example.com
+python docsocial.py --photo profile.jpg
+```
+
+### 🐧 **Linux (Ubuntu/Debian)**
+
+#### Prerequisites
+```bash
+sudo apt update
+sudo apt install python3 python3-pip git
+```
+
+#### Installation
+```bash
+# Clone the repository
+git clone https://github.com/aydocs/docsocial.git
+cd docsocial/social-intel
+
+# Install dependencies
+pip3 install -r requirements.txt
+
+# or use the shell script
+bash run_docsocial.sh
+```
+
+#### Usage
+```bash
+# Interactive mode (Animated menu)
+python3 docsocial.py
+
+# Command line
+python3 docsocial.py --username aydocs
+python3 docsocial.py --phone +1234567890
+python3 docsocial.py --email user@example.com
+python3 docsocial.py --photo profile.jpg
+```
+
+### 🍎 **macOS**
+
+#### Prerequisites
+```bash
+# Install Homebrew if not installed
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+
+# Install Python and Git
+brew install python git
+```
+
+#### Installation
+```bash
+# Clone the repository
+git clone https://github.com/aydocs/docsocial.git
+cd docsocial/social-intel
+
+# Install dependencies
+pip3 install -r requirements.txt
+
+# or use the shell script
+bash run_docsocial.sh
+```
+
+#### Usage
+```bash
+# Interactive mode (Animated menu)
+python3 docsocial.py
+
+# Command line
+python3 docsocial.py --username aydocs
+python3 docsocial.py --phone +1234567890
+python3 docsocial.py --email user@example.com
+python3 docsocial.py --photo profile.jpg
+```
+
+### 🔧 **Quick Start (All Platforms)**
+
+1. **Clone the repository:**
+   ```bash
+   git clone https://github.com/aydocs/docsocial.git
+   cd docsocial/social-intel
+   ```
+
+2. **Install dependencies:**
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+3. **Run the tool:**
+   ```bash
+   python docsocial.py
+   ```
+
+4. **Follow the interactive menu to start gathering intelligence!**
+
+
 
 ---
 
