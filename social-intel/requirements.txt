@@ -1,0 +1,10 @@
+requests
+beautifulsoup4
+colorama
+pillow
+lxml
+tqdm
+pyfiglet
+rich
+# Optional: Uncomment for AI support
+# openai 
